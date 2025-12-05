@@ -24,8 +24,6 @@ I engineered a relational database merging three disparate sources:
 2.  **Google Trends:** Time-series search volume (2018-2025).
 3.  **Social Surveys:** Customer demographics and purchase intent.
 
-*(Insert your ERD Screenshot here in the images folder)*
-
 ### Key Findings
 ### 1. The "Oud" Superiority
 While "Natural" perfumes have high volume, **Oud perfumes** hold the highest statistically significant rating (**4.17/5.0**) compared to the general market (**4.0/5.0**). Oud is not just a trend; it is the premium standard.
