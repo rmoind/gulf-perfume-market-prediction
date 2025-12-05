@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![SQL](https://img.shields.io/badge/SQL-MySQL-orange)
 ![Tableau](https://img.shields.io/badge/Tableau-Visualization-red)
-[![Canva](https://img.shields.io/badge/Canva-Presentation-blue?logo=canva style=for-the-badge)
+![Canva](https://img.shields.io/badge/Canva-Presentation-blue?logo=canva style=for-the-badge)
 
 ## Project Overview
 The Gulf cosmetic market is shifting rapidly from synthetic western brands to traditional "Natural" products. 
