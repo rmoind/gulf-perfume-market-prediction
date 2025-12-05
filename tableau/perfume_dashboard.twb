@@ -1,0 +1,1378 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.1003.1601                               -->
+<workbook original-version='18.1' source-build='2025.2.4 (20252.25.1003.1601)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Perfume Data (perfume_success_analysis)' inline='true' name='federated.196dzvh0ocu16l18qwl7y0btgcki' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='perfume_success_analysis' name='excel-direct.1td8sjj0e0ip3s1e3ef5n06p5b6d'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/rahal/Downloads/perfume_success_analysis.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1td8sjj0e0ip3s1e3ef5n06p5b6d' name='Perfume Data' table='[&apos;Perfume Data$&apos;]' type='table'>
+          <columns gridOrigin='A1:N10001:no:A1:N10001:0' header='yes' outcome='6'>
+            <column datatype='string' name='Product_ID' ordinal='0' />
+            <column datatype='string' name='brand_clean' ordinal='1' />
+            <column datatype='string' name='type_clean' ordinal='2' />
+            <column datatype='string' name='longevity' ordinal='3' />
+            <column datatype='string' name='Main Accords' ordinal='4' />
+            <column datatype='real' name='Rating Value' ordinal='5' />
+            <column datatype='integer' name='Rating Count' ordinal='6' />
+            <column datatype='real' name='Overall_Purchase_Intent_Score' ordinal='7' />
+            <column datatype='real' name='Universal_Influencer_Score' ordinal='8' />
+            <column datatype='real' name='Rating_Clean' ordinal='9' />
+            <column datatype='integer' name='Is_Success' ordinal='10' />
+            <column datatype='integer' name='Is_Oud' ordinal='11' />
+            <column datatype='integer' name='Is_Natural' ordinal='12' />
+            <column datatype='integer' name='Longevity_Score' ordinal='13' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Perfume Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:N10001:no:A1:N10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product_ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Product_ID]</local-name>
+            <parent-name>[Perfume Data]</parent-name>
+            <remote-alias>Product_ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>brand_clean</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[brand_clean]</local-name>
+            <parent-name>[Perfume Data]</parent-name>
+            <remote-alias>brand_clean</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type_clean</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[type_clean]</local-name>
+            <parent-name>[Perfume Data]</parent-name>
+            <remote-alias>type_clean</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longevity</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[longevity]</local-name>
+            <parent-name>[Perfume Data]</parent-name>
+            <remote-alias>longevity</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Main Accords</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Main Accords]</local-name>
+            <parent-name>[Perfume Data]</parent-name>
+            <remote-alias>Main Accords</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rating Value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rating Value]</local-name>
+            <parent-name>[Perfume Data]</parent-name>
+            <remote-alias>Rating Value</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rating Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rating Count]</local-name>
+            <parent-name>[Perfume Data]</parent-name>
+            <remote-alias>Rating Count</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Overall_Purchase_Intent_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Overall_Purchase_Intent_Score]</local-name>
+            <parent-name>[Perfume Data]</parent-name>
+            <remote-alias>Overall_Purchase_Intent_Score</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Universal_Influencer_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Universal_Influencer_Score]</local-name>
+            <parent-name>[Perfume Data]</parent-name>
+            <remote-alias>Universal_Influencer_Score</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rating_Clean</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rating_Clean]</local-name>
+            <parent-name>[Perfume Data]</parent-name>
+            <remote-alias>Rating_Clean</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Is_Success</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Is_Success]</local-name>
+            <parent-name>[Perfume Data]</parent-name>
+            <remote-alias>Is_Success</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Is_Oud</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Is_Oud]</local-name>
+            <parent-name>[Perfume Data]</parent-name>
+            <remote-alias>Is_Oud</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Is_Natural</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Is_Natural]</local-name>
+            <parent-name>[Perfume Data]</parent-name>
+            <remote-alias>Is_Natural</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longevity_Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Longevity_Score]</local-name>
+            <parent-name>[Perfume Data]</parent-name>
+            <remote-alias>Longevity_Score</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Calcul 1' datatype='string' name='[Calculation_1424544870631071745]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF CONTAINS(LOWER([Main Accords]), &apos;oud&apos;) OR CONTAINS(LOWER([brand_clean]), &apos;oud&apos;) THEN &apos;Oud Perfume&apos;&#13;&#10;ELSEIF CONTAINS(LOWER([longevity]), &apos;eternal&apos;) OR CONTAINS(LOWER([longevity]), &apos;long&apos;) THEN &apos;Long Lasting&apos;&#13;&#10;ELSEIF CONTAINS(LOWER([Main Accords]), &apos;green&apos;) OR CONTAINS(LOWER([Main Accords]), &apos;herbal&apos;) THEN &apos;Natural Perfume&apos;&#13;&#10;ELSE &apos;General Perfume&apos;&#13;&#10;END' />
+      </column>
+      <column caption='Is Natural' datatype='integer' name='[Is_Natural]' role='measure' type='quantitative' />
+      <column caption='Is Oud' datatype='integer' name='[Is_Oud]' role='measure' type='quantitative' />
+      <column caption='Is Success' datatype='integer' name='[Is_Success]' role='measure' type='quantitative' />
+      <column caption='Longevity Score' datatype='integer' name='[Longevity_Score]' role='measure' type='quantitative' />
+      <column caption='Overall Purchase Intent Score' datatype='real' name='[Overall_Purchase_Intent_Score]' role='measure' type='quantitative' />
+      <column caption='Product ID' datatype='string' name='[Product_ID]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Rating Count]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Rating Value]' role='measure' type='quantitative' />
+      <column caption='Rating Clean' datatype='real' name='[Rating_Clean]' role='measure' type='quantitative' />
+      <column caption='Universal Influencer Score' datatype='real' name='[Universal_Influencer_Score]' role='measure' type='quantitative' />
+      <column caption='Perfume Data' datatype='table' name='[__tableau_internal_object_id__].[Perfume Data_EEBD790569DF4935B92E37703F4BE030]' role='measure' type='quantitative' />
+      <column caption='Brand Clean' datatype='string' name='[brand_clean]' role='dimension' type='nominal' />
+      <column caption='Longevity' datatype='string' name='[longevity]' role='dimension' type='nominal' />
+      <column caption='Type Clean' datatype='string' name='[type_clean]' role='dimension' type='nominal' />
+      <column-instance column='[Calculation_1424544870631071745]' derivation='None' name='[none:Calculation_1424544870631071745:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Is_Oud]' derivation='None' name='[none:Is_Oud:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Rating Count]' derivation='None' name='[none:Rating Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Rating Value]' derivation='None' name='[none:Rating Value:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[brand_clean]' derivation='None' name='[none:brand_clean:nk]' pivot='key' type='nominal' />
+      <group hidden='true' name='[Exclusions (Brand Clean,Is Oud,Rating Count,Rating Value)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:brand_clean:nk]' />
+          <groupfilter function='level-members' level='[none:Is_Oud:qk]' />
+          <groupfilter function='level-members' level='[none:Rating Count:qk]' />
+          <groupfilter function='level-members' level='[none:Rating Value:qk]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='fr_FR' class='hyper' dbname='C:/Users/rahal/AppData/Local/Temp/TableauTemp/#TableauTemp_0c2u96x15c7nwg1111f241etdtr2.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='12/05/2025 02:22:40 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Product_ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Product_ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Product_ID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Perfume Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>65938</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LFR_RFR_S2' />
+              <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>brand_clean</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[brand_clean]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>brand_clean</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Perfume Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1061</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LFR_RFR_S2' />
+              <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>type_clean</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[type_clean]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>type_clean</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Perfume Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LFR_RFR_S2' />
+              <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>longevity</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[longevity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>longevity</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Perfume Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LFR_RFR_S2' />
+              <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Main Accords</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Main Accords]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Main Accords</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Perfume Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>51857</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LFR_RFR_S2' />
+              <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rating Value</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Rating Value]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Rating Value</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Perfume Data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>486</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rating Count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Rating Count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Rating Count</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Perfume Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1657</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Overall_Purchase_Intent_Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Overall_Purchase_Intent_Score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Overall_Purchase_Intent_Score</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Perfume Data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Universal_Influencer_Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Universal_Influencer_Score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Universal_Influencer_Score</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Perfume Data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rating_Clean</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Rating_Clean]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Rating_Clean</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Perfume Data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>402</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Is_Success</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Is_Success]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Is_Success</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Perfume Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Is_Oud</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Is_Oud]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Is_Oud</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Perfume Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Is_Natural</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Is_Natural]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Is_Natural</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Perfume Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Longevity_Score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Longevity_Score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Longevity_Score</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Perfume Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Perfume Data_EEBD790569DF4935B92E37703F4BE030]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_1424544870631071745:nk]' type='palette'>
+            <map to='#c7c7c7'>
+              <bucket>&quot;General Perfume&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;Oud Perfume&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;Natural Perfume&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;FR&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='Perfume Data' id='Perfume Data_EEBD790569DF4935B92E37703F4BE030'>
+            <properties context=''>
+              <relation connection='excel-direct.1td8sjj0e0ip3s1e3ef5n06p5b6d' name='Perfume Data' table='[&apos;Perfume Data$&apos;]' type='table'>
+                <columns gridOrigin='A1:N10001:no:A1:N10001:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Product_ID' ordinal='0' />
+                  <column datatype='string' name='brand_clean' ordinal='1' />
+                  <column datatype='string' name='type_clean' ordinal='2' />
+                  <column datatype='string' name='longevity' ordinal='3' />
+                  <column datatype='string' name='Main Accords' ordinal='4' />
+                  <column datatype='real' name='Rating Value' ordinal='5' />
+                  <column datatype='integer' name='Rating Count' ordinal='6' />
+                  <column datatype='real' name='Overall_Purchase_Intent_Score' ordinal='7' />
+                  <column datatype='real' name='Universal_Influencer_Score' ordinal='8' />
+                  <column datatype='real' name='Rating_Clean' ordinal='9' />
+                  <column datatype='integer' name='Is_Success' ordinal='10' />
+                  <column datatype='integer' name='Is_Oud' ordinal='11' />
+                  <column datatype='integer' name='Is_Natural' ordinal='12' />
+                  <column datatype='integer' name='Longevity_Score' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource inline='true' name='Clipboard_20251205T034744' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Clipboard_20251205T034744' name='Clipboard_20251205T034744leaf'>
+            <connection class='textscan' directory='C:/Users/rahal/Documents/Mon dossier Tableau/Sources de données' filename='Clipboard_20251205T034744.txt' />
+          </named-connection>
+        </named-connections>
+        <relation connection='Clipboard_20251205T034744leaf' name='Clipboard_20251205T034744#txt' table='[Clipboard_20251205T034744#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr_FR' separator='&#9;'>
+            <column datatype='string' name='# Trend_Category' ordinal='0' />
+            <column datatype='integer' name='Product_Count' ordinal='1' />
+            <column datatype='real' name='Avg_Product_Rating' ordinal='2' />
+            <column datatype='real' name='Market_Search_Volume' ordinal='3' />
+            <column datatype='real' name='Market_Growth_Trend' ordinal='4' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Clipboard_20251205T034744#txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;\\t&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name># Trend_Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[# Trend_Category]</local-name>
+            <parent-name>[Clipboard_20251205T034744#txt]</parent-name>
+            <remote-alias># Trend_Category</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <object-id>[Clipboard_20251205T034744]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product_Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Product_Count]</local-name>
+            <parent-name>[Clipboard_20251205T034744#txt]</parent-name>
+            <remote-alias>Product_Count</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Clipboard_20251205T034744]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Product_Rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Product_Rating]</local-name>
+            <parent-name>[Clipboard_20251205T034744#txt]</parent-name>
+            <remote-alias>Avg_Product_Rating</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Clipboard_20251205T034744]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Market_Search_Volume</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Market_Search_Volume]</local-name>
+            <parent-name>[Clipboard_20251205T034744#txt]</parent-name>
+            <remote-alias>Market_Search_Volume</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Clipboard_20251205T034744]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Market_Growth_Trend</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Market_Growth_Trend]</local-name>
+            <parent-name>[Clipboard_20251205T034744#txt]</parent-name>
+            <remote-alias>Market_Growth_Trend</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Clipboard_20251205T034744]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='# Trend Category' datatype='string' name='[# Trend_Category]' role='dimension' type='nominal' />
+      <column caption='Avg Product Rating' datatype='real' name='[Avg_Product_Rating]' role='measure' type='quantitative' />
+      <column caption='Market Growth Trend' datatype='real' name='[Market_Growth_Trend]' role='measure' type='quantitative' />
+      <column caption='Market Search Volume' datatype='real' name='[Market_Search_Volume]' role='measure' type='quantitative' />
+      <column caption='Product Count' datatype='integer' name='[Product_Count]' role='measure' type='quantitative' />
+      <column caption='Clipboard_20251205T034744' datatype='table' name='[__tableau_internal_object_id__].[Clipboard_20251205T034744]' role='measure' type='quantitative' />
+      <column-instance column='[# Trend_Category]' derivation='None' name='[none:# Trend_Category:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='fr_FR' class='hyper' dbname='C:/Users/rahal/AppData/Local/Temp/TableauTemp/#TableauTemp_16wzr3g1ejliu01f4snhi19yz029.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='12/05/2025 01:39:24 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name># Trend_Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[# Trend_Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias># Trend_Category</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Clipboard_20251205T034744#txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LFR_RFR' />
+              <object-id>[Clipboard_20251205T034744]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Product_Count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Product_Count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Product_Count</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Clipboard_20251205T034744#txt</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Clipboard_20251205T034744]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Product_Rating</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Product_Rating]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Product_Rating</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Clipboard_20251205T034744#txt</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Clipboard_20251205T034744]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Market_Search_Volume</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Market_Search_Volume]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Market_Search_Volume</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Clipboard_20251205T034744#txt</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Clipboard_20251205T034744]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Market_Growth_Trend</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Market_Growth_Trend]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Market_Growth_Trend</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Clipboard_20251205T034744#txt</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Clipboard_20251205T034744]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:# Trend_Category:nk]' type='palette'>
+            <map to='#9edae5'>
+              <bucket>&quot;long lasting perfume&quot;</bucket>
+            </map>
+            <map to='#c7c7c7'>
+              <bucket>&quot;perfume&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;oud perfume&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;natural perfume&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;FR&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='Clipboard_20251205T034744' id='Clipboard_20251205T034744'>
+            <properties context=''>
+              <relation connection='Clipboard_20251205T034744leaf' name='Clipboard_20251205T034744#txt' table='[Clipboard_20251205T034744#txt]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='fr_FR' separator='&#9;'>
+                  <column datatype='string' name='# Trend_Category' ordinal='0' />
+                  <column datatype='integer' name='Product_Count' ordinal='1' />
+                  <column datatype='real' name='Avg_Product_Rating' ordinal='2' />
+                  <column datatype='real' name='Market_Search_Volume' ordinal='3' />
+                  <column datatype='real' name='Market_Growth_Trend' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Market Search Volume vs Rating'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' italic='true'>Market Search Volume vs Rating</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource name='Clipboard_20251205T034744' />
+          </datasources>
+          <datasource-dependencies datasource='Clipboard_20251205T034744'>
+            <column caption='# Trend Category' datatype='string' name='[# Trend_Category]' role='dimension' type='nominal' />
+            <column caption='Avg Product Rating' datatype='real' name='[Avg_Product_Rating]' role='measure' type='quantitative' />
+            <column caption='Market Growth Trend' datatype='real' name='[Market_Growth_Trend]' role='measure' type='quantitative' />
+            <column caption='Market Search Volume' datatype='real' name='[Market_Search_Volume]' role='measure' type='quantitative' />
+            <column caption='Product Count' datatype='integer' name='[Product_Count]' role='measure' type='quantitative' />
+            <column-instance column='[# Trend_Category]' derivation='None' name='[none:# Trend_Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Avg_Product_Rating]' derivation='Sum' name='[sum:Avg_Product_Rating:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Market_Growth_Trend]' derivation='Sum' name='[sum:Market_Growth_Trend:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Market_Search_Volume]' derivation='Sum' name='[sum:Market_Search_Volume:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Product_Count]' derivation='Sum' name='[sum:Product_Count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[Clipboard_20251205T034744].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[Clipboard_20251205T034744].[sum:Avg_Product_Rating:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[Clipboard_20251205T034744].[sum:Market_Growth_Trend:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[Clipboard_20251205T034744].[sum:Market_Search_Volume:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[Clipboard_20251205T034744].[sum:Product_Count:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[Clipboard_20251205T034744].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[Clipboard_20251205T034744].[sum:Avg_Product_Rating:qk]' scope='rows' value='AVG Customer Rating (0-5)' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[Clipboard_20251205T034744].[none:# Trend_Category:nk]' value='151' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[Clipboard_20251205T034744].[sum:Avg_Product_Rating:qk]' value='false' />
+            <format attr='break-on-special' field='[Clipboard_20251205T034744].[sum:Avg_Product_Rating:qk]' value='false' />
+            <format attr='show-null-value-warning' field='[Clipboard_20251205T034744].[sum:Avg_Product_Rating:qk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='caption'>
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[Clipboard_20251205T034744].[none:# Trend_Category:nk]' />
+              <text column='[Clipboard_20251205T034744].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[Clipboard_20251205T034744].[sum:Avg_Product_Rating:qk]</rows>
+        <cols>[Clipboard_20251205T034744].[none:# Trend_Category:nk]</cols>
+      </table>
+      <simple-id uuid='{1949F72A-BAED-4802-9249-24B04463D074}' />
+    </worksheet>
+    <worksheet name='Oud Cluster'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' italic='true'>Oud Cluster</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Perfume Data (perfume_success_analysis)' name='federated.196dzvh0ocu16l18qwl7y0btgcki' />
+          </datasources>
+          <datasource-dependencies datasource='federated.196dzvh0ocu16l18qwl7y0btgcki'>
+            <column caption='Calcul 1' datatype='string' name='[Calculation_1424544870631071745]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF CONTAINS(LOWER([Main Accords]), &apos;oud&apos;) OR CONTAINS(LOWER([brand_clean]), &apos;oud&apos;) THEN &apos;Oud Perfume&apos;&#13;&#10;ELSEIF CONTAINS(LOWER([longevity]), &apos;eternal&apos;) OR CONTAINS(LOWER([longevity]), &apos;long&apos;) THEN &apos;Long Lasting&apos;&#13;&#10;ELSEIF CONTAINS(LOWER([Main Accords]), &apos;green&apos;) OR CONTAINS(LOWER([Main Accords]), &apos;herbal&apos;) THEN &apos;Natural Perfume&apos;&#13;&#10;ELSE &apos;General Perfume&apos;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Main Accords]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Rating Count]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Rating Value]' role='measure' type='quantitative' />
+            <column caption='Brand Clean' datatype='string' name='[brand_clean]' role='dimension' type='nominal' />
+            <column caption='Longevity' datatype='string' name='[longevity]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1424544870631071745]' derivation='None' name='[none:Calculation_1424544870631071745:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Rating Count]' derivation='None' name='[none:Rating Count:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Rating Value]' derivation='None' name='[none:Rating Value:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.196dzvh0ocu16l18qwl7y0btgcki].[none:Calculation_1424544870631071745:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Calculation_1424544870631071745:nk]' />
+              <groupfilter function='empty-level' member='[none:Calculation_1424544870631071745:nk]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.196dzvh0ocu16l18qwl7y0btgcki].[none:Calculation_1424544870631071745:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.196dzvh0ocu16l18qwl7y0btgcki].[none:Calculation_1424544870631071745:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='185' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.196dzvh0ocu16l18qwl7y0btgcki].[none:Rating Value:qk]</rows>
+        <cols>[federated.196dzvh0ocu16l18qwl7y0btgcki].[none:Rating Count:qk]</cols>
+      </table>
+      <simple-id uuid='{32E91502-434C-4A9B-B42A-8565702907E2}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' name='Market Search Volume vs Rating'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='169'>
+            <card pane-specification-id='0' param='[Clipboard_20251205T034744].[none:# Trend_Category:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[Clipboard_20251205T034744].[none:# Trend_Category:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{51CCBCDB-1D3D-4F1E-B0E6-49ECD79EFF1C}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Oud Cluster'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='169'>
+            <card param='[federated.196dzvh0ocu16l18qwl7y0btgcki].[none:Calculation_1424544870631071745:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.196dzvh0ocu16l18qwl7y0btgcki].[none:Calculation_1424544870631071745:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.196dzvh0ocu16l18qwl7y0btgcki].[none:Calculation_1424544870631071745:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{594C4B34-9609-4A17-9852-D471F3B7E39B}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Market Search Volume vs Rating' width='192'>
+      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
+      QmCC
+    </thumbnail>
+    <thumbnail height='192' name='Oud Cluster' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAgAElEQVR4nO29yZNcSXrg93N/e+xrLkAigUIBVdVV7I3dZFOt0ZAyisYxHmhjMl04xuvc
+      dJqbbjzMPyEzXSTTYiaNRBMlkmYSR+TMcGaabHbX0rWgFqCw5RoZ+/J2dx1iQSKRWQVkRlZF
+      Fd7PDMhEIMPf9yL9e/75598itNaajIyXFPl1C5CR8XWyVAVQSl14DN/3lyDJE9I0Xep4SimW
+      vWguW8bsnp+fpSrAKlpTy5bpMu5x1WXUWn8jZDwPK2cCraISZXx7yRQg46Vm5RQgI+OrJFOA
+      jJeaTAEyXmrOpQBpmqK1RqUJYRgtTZggCPB9fynu1IyM5+GFFcAfdvjX//Zv0cDHH33AZx9/
+      wNHw4kowGo04ODhgMpmwu7t74fEyMp4H80Xf4BVrXF2vAzGGVebV7Qq7rR7VXH2xMpyHXq9H
+      tVpFSsne3h5JkpxrnJNcxqGQUgohxNLGXJVDobOY3+8yV+ZVuecXVoAomDAcDOgPAqJwwMGe
+      j12+jmEYAIuvL0qz2WRnZ4ckSahUKpjmC4t2JsscK01TpJRLVQBYrozLHi9NU4QQSLncLeMq
+      3PMLv0Nrzc2btwDB7duvMgoSatXcC1/4JJZlIaUkjmNyuYuPl5HxPLywAjhenjUvf+zfyxGk
+      1WpRLZWoFQocHBxQKBSWM3BGxhew3DXoAhhK0fnrv0b2eqgf/ODrFifjJWFlzgHs99+H6zcY
+      /uAHFD/88OsWJ+MlYWVWgHTrGv5772FqzbDeYOPrFijjpWBlVoCxaWBvrKHzHnG59HWLk/GS
+      sDIrgJnPMbRsRKWKkc+8QBlfDSuzAiSpwnBtUsskzUIhMr4iVkYBpIQgTlACkjQlCIKvW6SM
+      l4CVUQCVphiGieu6pCpLisn4algZBUg1JGnMeBKAVqRx/HWLlPESsDIKYEoJSiMAlGbvH/4h
+      C4vOuHRWRgGU1qA1CEAK4ijO8oMzLp2VcYMiBEi5mPTWzRtLj7jMyDjJ+VcArfjs4w959513
+      GccXN1WkEEynvgAh6HS63L17lzjbC2RcIudfAXSCH8HV9QI7Ox1evVa9UEJMFD+dAGMwdYV2
+      u11qtdq5xcwSYi5OlhBzGtLm5vYGDx7co7ixfuGEGNs8/j5BCkgpKRQKF06cyBJiLsa3OSHm
+      Qnc0GA7xyhtcbV48dj9Jjz1dtCZfKPHKK6/g+z79fj/bEGdcChdSwc2t68uSA0MKODbHq7kc
+      w+GQSqVCGIYMBgPK5fLSrpeRASvkBVoc/gpAw9H9+wjDIMzlKN26tXSbMSMDVugcYGFSzxQh
+      8TzyW1v4e3vsvPsu+SianhNkZCyRlVEArTUIsdhcxkASRbjvvUdeSvx/97dEj3e+XiEzvnWs
+      jAmk9fQvvfi3Zry7i/i173L9Jz8hPTjg8O5diqUipVIpOyTLWAorswIY8uSE1qSGiSyXGP3Z
+      /8XBp5/S/PGP0FozGo2+Fhkzvn2szgrwzCuCxLbomQZyfZ0QOJq5Q/P5/LMDZGScg5VZAbRm
+      6gGaI6YhEXGqGEcRnucxHo8vdNqckXGSlVkBTjXpZxGiyeefE+bzxFeuEEUR0UwhPG9JVbky
+      XlpWZgVQarYECJ5aCQzTxGk2mSBIfJ9yuYzjOAyHw69L1IxvESujAIYxF+WYBgiB8n0GQUCY
+      84i0ptVq0ev1sCzr6xI141vEyphAizzgeVIMYuoWtUzkrE2nlBLXdfE8b+mBVBkvJ6uzAkjx
+      5KT3+B5XSJTjoKVExzHj8RjDMLIK0hlL4UIKsPvwHh98+BH+EhJi9Jmx5lNtkFGE1ekggNGg
+      x4M77zB4/CGoLEYo4/xcwI5QdHtjCnmL3sDHqXrTvmHnTJpQSj/rChKz/YDWKMch8jxEGKKN
+      lDRfpTUM8Ho7GJWtM8e9iEyny6lmoi3vJHrZMl7GeMDKy3ie8c6vACoFIZGGQRLHwFQBzuuj
+      f553KaUQUjIKNbYekkQRpXKV2hdc8yIyfdGYyx5vmWNexnjLZlXu+fwKIAxcWzIaR2w0PeQs
+      of28GWFf+kTVGpRCmyYCUCpBoDjqjShUozPPBC4i01ksOyNs2TJexj0vOyNsVe75AgogefX1
+      75z77Sd5JhTomesJpONQKpXodbugJcJyKRSL9Pt9LMvKPEMZL8zKeIG+cPES0wOyvGPgODam
+      aWI5DkJK+v0+SZJk4REZ52JlFODpQKDjTCe2aRgoDdFkSK1aIYpjTMPAkprJZAJAFEVZNbmM
+      F2JlbIYvNqn1tHjupENg5HCiLrb0yMsAM00YxQ537tzBcRwsy2J7e3vpNnDGt5OVWQHUIilY
+      n5H6qKdxQfkyY6NMUXXBrRC5a1TtlGq1SqVSmSbSjMdfpegZ32BWZgWQi12wOGENTf+hgG6a
+      h+EE2zRYb24hJnsMKJEqTb/XI5/Pk6ZpFiWa8dysjAKoL9zETv/PkAKNIE41ubWb2GwRH7Up
+      NTappilpmpLP5zNvUMZzszIzxZhvAuaK8NSmYPp9MjOT8vk8Ozs7FAoFyo3N7ImfcW5WRgG+
+      vCmMRmqFaVlIKXEch7W1tcXhjNaawWDAZDLBcRyq1WqWOJ/xpazMJnjBLBXyGfT0/9J06vM/
+      6ftPkoQoitjc3ERrTRRFX53MGd9YVkYB9JdEAwkhEEIitEJrTRAEtFqthd9fSkmapsRxTBzH
+      Sy/kmvHtZEVnyUll0JgiQWmNKaFULKKUYjweL7pJGoZBtVql1+tRLpezjXDGc7EyCmAsntjH
+      J/+TgqGplphCkQqLTreLYRgUZ3FAc1PIcRyazSae52X2f8ZzcYEGGYq9nceMJ2PKa9dpVi6W
+      oXWWATSPQiw6JqYKsVwbmW9QLBYxTZPd3V2klDSbzczsyXhhLhQNurm1zWcfvU+h4C06p5wX
+      pY6dAB97eE89/5pECYTXwFM91msFupOY/f19NjY2MAyDfr9PqVQ6ZVx1ZmXp4/uH55dz+bFG
+      XyTjqownhFhqwOGq3POFDOU0GhAZRTxToJSebVTPZ3oYZ0xCrTVFW2MaGse1sMchnWFAvblG
+      u91e7APW19dPvfZZMo1GIyaTCVpryuUyruu+kLzLNLEu8rl9leN9E2R8US6kAP3ehJuvTNMR
+      5wkx5zVD0jRd9AZgUSVOoNGYKsCtbOF3HlG/8RrD2MD3fRqNBnEco5TCNM1Tr62UOvX1yWTC
+      +vo6aZrS6XSeO8l+fo/L/OWdJeOqjKe1XnpCzKrc84UkqK1t4FrLibo0pWTeIfLkOcBA5Wh1
+      hwRWnXu7HeI4xvM8giDA930sy6LX673QEu26Lp1Oh263m1WYeIlZmV1jop/uETb7BgGEcYph
+      GBQKBYrFIlEU0e12yefzFItFtre3n+1iGI1g723o3nsmunS+XwmCgEKhkBXbfYlZGQUw5Gwl
+      OTFZ9WxHPG+ZOhgMqNfrlEolfN9HKUWr1cKahUgs2H8X6reRKBg8fmrMXq+H4zjU63WGw2Hm
+      Mn2JWZnTotONFzGb/hpbpri5IjocYRy+h1mqIkSNtbW1hf339ETWYHpoKw/p02ERSiksy8Iw
+      jCyV8iVnZRRAnKoCGkMKFAap1tTMgGpecz/YoNAfUN+wEEKcnv1Vfx12/g6EA1d+8NR/VatV
+      jo6O0FpTr9cv54YyvhGsjAKoM8KgTQmm41CxE5TpEcc+pZzDWhqC+wW2e74J+SY6SUA+rSCG
+      YbC+vr78m8j4xrEye4DpAjDzgc6UwTRNIiUpCJ+86+BrB7/wCg3RhvptMJ/47rXW9Pt9Wq1W
+      Fgma8dyszAqwMGMWltDU91wsFrFKJbphSKVSolarARvPvH88HqO1plqt0mq12NjYyDa3GV/K
+      yqwAZ4VDW5ZFtVoljmMODg4WtvtJlFIYhpHFA2W8ECszW1SqOJkQnyYJSZLw2Wef4Xker776
+      Kp3O9CDsJPPzgcPDQyqVSvb0z3guzjSBkkmb//V/+3Ou3bjBK9/7TbaqLxYr88KCmM96crRW
+      +OMBjlcgiiLG4/GZXh8hRObRyXhhzlwBxkePUU6eTz/4kFHw7BN32SSpmjXFm78iQGmueCG1
+      Wg3bthmPx1nRq4ylcuYKUNx8nVevdom2rnC9cfmhAo7jTF2gWi++Woamn9jkkgTbtp9Kgs/I
+      WAZnziadxgjLpfvgQx62/VN/Jhj1ufPxp0TpxU9Tp3a9XuwBDMOgUKmz/dr3qdfr2eTPuBTO
+      XAF0EnD//n18P8W1TttQKu5+/oDrr97CXMJ+U8pp0rvWirlPqFh68Tj9jIwX4VQFCIZH/Omf
+      /jmhAmHauKe2JE3pdQbkvIcYhTWuNssX6uKeJvNsnqk25XI5hBAkSXKu8RbjLjHrCJ5Eki7T
+      y7RsGS/jnp+Jtr0gq3LPpyqAW2zwR3/8x7z/3ruMghjPPs30MNncqBHGKVXbXmxMz90hZpZQ
+      M8+GmUwm2LNxLzrZllkhIk3TpSfEwHJlXPZ4aZouPSEGVuOez3zH4OE7/Mf3PmW9kqPe9ym5
+      hRM/Ibj52ndQ+nhh2wswWzmkkNPyJ6aJ7/ukaUqz2bz4+BkZp3BWIi75tVf4Rz/5MUkQUHTP
+      0BMhljP5OdmJcJp2GATBqYdeGRnL4vSZnQb85f/zNyTS5js/+k9YKzmXL4gpeeIFEkRhiC4U
+      so4vGZfK6SuA4fJ7v/9PuHmlxv/5P/93fLo/unRBTu6dTUOytraWVXjLuFROV4Ak4K//v7+G
+      /Dr/4r/5E17fLF66IKmaJj/ODSppWkwmkyy8IeNSOf3xann8/h/8AUmSgk5JUzCMyz2EMk0D
+      DchZbphpmmitsU51wWZkLIcz7Yvg4A7/7Z/+PcboEKt5hX/2R3/MZW4FVJJgGgZJmmJISblc
+      znp9ZVw6ZyqAU7nKZsUlqd7irVvXTmYVLh05W2GkEGgNR0dHbG9vX+5FM156zg6HjvxpL15L
+      c/X1H1D4CvaihmFiWhKtpr7/SqVy+RfNeKk5c1qnfof8xmv8+I1Niu7lhx8LYZDzXEbjCYZp
+      UqvVsrDnjEvn1J2tVgrcJm7S5oMPPmASXb4v3rJtgijGsm1g+cfkGRmncaoCqNjn8d7hovbm
+      F7cwXR7zQDPHcRiNLv/sISPjVAUwnBxrXsz6Gz/h+6/U2O+eng+wTOYViHO5HL7vZ2HQGV8J
+      Z9gZms8f7HDv4CHjaol/9GunZ4Q9/PwzUmGxeXXr4lWilSIKfELfx3Fd7JkplJFxmZyhAJLX
+      v/Maf/2LP2fYcnn9h7/F9fqzE7zX71OoNLFMgzRNUUqdOx9gNBotUoLjKETHPmmUou2TUagv
+      RpYPcHFeunwAmIYkfP/Hv8WDj97GjyLgpEmi+c5b38Pv7XL/cYebW1W01uf23Egxy4cXkGpN
+      dHCHnGuB6UH9tXONCVxIprNYdj7AsmVc9niX0SFmVe75TBPo3qMWXqHKP/7pj8h5p9njmoOd
+      RwyDmFdevXbhD0kL+aQuqNYkcYy49n3Y+Tk0Xj/XmJC1C1omqyzjclskBV3eu9+nln7Cw8It
+      /qu3TovHkWzduPnCF3xeDh/sUuTfIGs3Lu0aGRlnRLgZDA7v8+lel97OpxwNL5aX+8IIwdCp
+      4B/toFQKx7rHaK2ZTCYMBoOstn/GhRF6ibMoTdNz23UP7t9nb3//yQtaU46PqBQkxcZVwvw1
+      tNaEYQhAuVzG9/0vTZdMkmQph2rHM9aWvQdYloyXNd5l5ASfR8bjU/Xk53/ee17d41YhGJpV
+      tJ/waHeCMO4CAq0Vtu1QrVafqRihtSYIAtI0JZ/PP/8knXeQMaau17k3a67MSimOjo5I0xTH
+      cahWKjA5gjSE4hUQTyZGHMd0u11M06RarV56jVKtNePhEENK3Be55zMIw5B+v4/jOJRKpWfH
+      S0IY7kG+ARf00L0IaZpydHSEUmrRK24ZrK4CAEqaDPRsRUmnucKW1KjI5/79+1zbXINwQGrm
+      abfbBEGAZVnk89N/NxqNRcHcNImp6i4FOYHmW+CWAdDDfdqPPyUxPEobryCsHDs7O2it2djY
+      oFAo0Ov18DyPQqHA/v4+qv8IGfbo+4rgqEflyq3Fwd38ukEQ0O/3lxLQN8+LPi03ovXwIdHP
+      /g42NylsblC5ffvc19Fa0+l0aDabDIdDJpMJpmkyGAwolUo4lgl7v4DyNurgV7Tt66R6Grru
+      ed4zY0VR9GzvtnMyHA4pFot4nsf+/v7LoQDAsXKJAIJYTb+V4z57n7doqYiJWQXTQanpU1uE
+      IZ3HO4z4mLjZwPE88Lv0TJu+XUPev0P1xvcRQtDfe4h39XtUPYeDex+QeE2uXLlCt9vl/v37
+      lMtlbNum0+lgGAZxHDMJDgmcdUY6oRI95u7du6ytrVGr1Z7qqTtfsqMoIo7jRa0jpRSTyQTX
+      dZ9ZtrXWpGlKGIZYlkUYhvi+j9Ya13WJ4xjDMBYVsMd373Ht9/4LdKHAzl/8xUIBwjAkTVM8
+      zztzVdBan2rSSSmRUpIkCcPhkHK5TLvdZr1WxDBdKF5l4KfkHBOv1ODg4ADP854a7+DgAJie
+      76ytrVEsFs9enbSG8SEYFrjVZ9rkAti2zWQyWcg3P5O4qHKtvgLAMx+I1qCSiF5qIoWNSmIQ
+      CUprJJrxoEs5p0ksb9oHOAqRKmESRRhmgKNTDu7cQUqJLUzk7g5pEhFHChkPCIJgakqNhrTC
+      ENOySNMU3/exbZtIFBke7ZKzNAfaIlIBQgg6nQ71ep2joyMMw6BWq+H7PsPhENM0GY1G1AoF
+      Hv/yl1gPHyF+48es33ziSUvTlMePHzPsHKCUwsvlcXIlNuwh7YHPw8CgsbaJ67r0ej2q1Sq1
+      119j984dVJJQnrV7HY/Hi6ev7/unppVqrRkMBguT0XVdCoUClUpl0XUzn88TxzG2bWNZFqmw
+      MaQFOz/HiCBxXlscQM1NlDmmaZIkySKxyTTNRT9mrTVxHD+p9N36EKQJsQ/5CZS2npF3/t4o
+      ivA8j8PDw0WPN8uy6Ha7KKUol7+kmmA0nl7LnGZ3LXUT7Ps+Dx48wLIsTNPENE1s2158nb8O
+      z/ptn9kEfyn66W+PnSEcazUPMG2VmiRo00QIUEgEYKFRaFIFhhRI252e9CYxQsUUow59uzlN
+      B5UGpmWTJAm5XI4kjkmiCBVFVJME7ToUyoI1L0Y0v0PYfkh3nDBRJrXNGxwdHU2LfR0cYF27
+      RtWymPz859T+8A8Xpd+jKILYRwUDyDWIR238VDK9vINDQGXjBrl8njAMKacpKgjAcVDDEc4r
+      N1DA7u4u9XodKSXdbpfNzc1nNpBaa/b391lbW+Px40e4rodSalGDVWuN0Cnde78giGIcU1Lb
+      fhPhVkDFaGkyGAyJoohKpYLv+xiGQS6XY3d3d6H0uVyOXC6HaZoUCtM9Q7fbJYoilFLU63Xs
+      /X+Aa78FSUB69+9I7BvY17cRZzhU9vb22NjYIEmSRcvbNE0pl8scHByc3R2ocxeC3nTP13gD
+      vOryvUBCCOI4Jo5jkiRZfB9FEUmSLEIm5susEALTNBmPxwyHw2WJMmN+awKhErQ4+YGeuHUh
+      kWgcNUElisgugFKYcqZUhoVKp3teS2piPyJfrhID0bCPdD1MoWmINmOjRuPaLaz2R3zcczB0
+      ipEEiCDEKdeJDRPZbmNuby9WljAMSaMAV4RERhEV+5hS49oWowhkGoLpUKo2WJ/4RHc+QpZK
+      CMMg99u/TZIkdDqdxcSYP9WbzSY7OzvEccza2hqlUgmtNa1WCyNo0+t2uFp1GHvbFErlhTLK
+      wQOa1gSd30DoFBEN4NpPSZLkmT4NYRgurnlwcECz2WRvbw/DMLBtm1qttthU7+3t0Ww2UUox
+      GAwo6j5ycojotRl91MbYvIHq9yn/4R+e+ls9OjqarsRRhOu6i/1GuVz+4vZYD/89XPspJD6M
+      W1C5vnwTSEqJ4zjTcudnoLVe2LpKKZIkuaTGdoJ54z19Wk6nPvEhaYUSglC4aGv6lDRUgkKg
+      MHHCPnk1YuKuIdwyG2JCa2eHpFAErYjjCCHhsSriWJqjVotoJBGRD1IRpBLh5tGHe0SlGqpQ
+      oJSmxHGM1ppSqcR4bKC0hx2PEK6DMlz8cRdXh0xkiU03YhxOGN29R/l3fxe7VGLvf/yfGLda
+      xHFMPp9HSkmtVqPZbNJut+l2u7iuS71eZ39/fzERG5Ui450HFDZu0R0doFWPQmla43V9fZ3+
+      +BG+WcFNw6mZohMGqUPgXkEhqFarOCJGPfoF6s4d2IfBr/8mXqNBpVJhMBhQqVQolUrs7+8v
+      5oVt23S7XdI0JYoiuqFCJSXy93ZZ++l/jr29Tee//x/O/K3W63XG4zH5fH5h7nQ6nYUJeuZe
+      I1eHg19B4tOhRujvfT17gLn5M9/AOI6Dc2nRn8dNoyf/PGElPQlEQqBmXyUpGHL68FcR2jLR
+      soBKU+JBh24SElamrk6BgZQCJUCjsERKr9sFJA0xoW9VSHWKnQZEhTwKhRAalURIFRH4EVpr
+      bNMkCULiSGMVTJI4xnZzFA2TyUSTS/sM/ITuWpnhv/8rquYY9Uqdgudilkrs7u4uno699iH5
+      0QNCbUFpe/YxPNmoStOmaIQUhu/QGiaYtW3a7TZKKXzfJ3A38ML76NY9hOWiG6/T7qbkVYvi
+      +qsMBgOa4eeM7vTx3vpd1r7X4eiv3mH0O7/D3bt3genKMBqN8H0fx3EYDAbU6/VFyPsnn3zC
+      7du3ieOYh6MJub/5N8hiEWv72sKtrbV+ajMvhFiYU3PK5TKmCmGyB3JjYeM/Rf11CAfECsxE
+      UC0Wl2sCBbt7tP7lvzzXe33fJwiDC0rwdI+xOdr1UJUKulRCF4uoahVdyKPzeXSpBFGE7PUQ
+      gwFiMESOR4iJjxgNEcMRIokRaAQKhfHU5fSxVeT4NsS2LGLDADQ6nbquDJ0ghSbGQmiNkFNl
+      k0LiyJgglWgtsG0L07LxRyOcUolEKdJ4egDoGopEutg6mHq97ALamNrsGkE6O8Mo5PMYQQdl
+      emiVMMYGaSwSjorFIgIBkxZ6fMTEWSfPhMhbm5quUYzrugSBD7GPIRRmscp4MqHsGYyUi+e5
+      uFGbcTvEbNRxGOPfbeF+/3tMxhOiOEJKSZqmFAoFbNthNB6TSIEUgtLMu1QsFEnShDgMKOsh
+      WjnIxiZJkjCZjAGB5z0dIi9sG455gFSaInt3wcpBGhG4m2jN1D17Yk6kaUocJ3j5/HIVIIlj
+      5DnLmT988JD9F9oEn4Z+xqw/FcH0w5MSjm+0js9gpaZ/0hRx3DzTmoLqMpLVJ9ecvU+isdKQ
+      yHAxdIqKEhACQ8ckwsJKAlLDnhll0+A/iwRl2Lh6TGpXMdIQP0pAKRzbxWy18EsF8o6JIyKM
+      0S5x+SYqmuBHimJtDTNo41Y3CVKD4SyTLk1TQn9MtVan4hmEoxHjWOJYFuLn/0CvXCJNE1zP
+      Ir9eIREWEz/ALTWnNrSUtNtt8vk8h7uPIBrhh5pSoYjpTF2ejVqZ3uNPKBfzpAd32Yua5K5c
+      IdUaz3UplcoMh0Ns22I4HCKEIPB9NhsNkiRhPBpTrlSm4S4qQfY/h/obMD4AIenH1sJ9Oj1T
+      qS5+DSoK6cw6hiZxQjln4k9GVDeuM2g9plhdQxj2mWcxSZKQhMFFTSDN3U8/48bt2xiASENk
+      +4MnndmFhPnGU4ip+wmmr81PT8XUw+LSJW9N0DN11YjFxDpeM07PnsXMJ9FCErEYU534+cX3
+      4gyf8clngBBT08cwwDLRrvvUzwxFaX7R2c+D0AolJLGKUcJiHr0kpCCdvTc8fgmtEIYFQuFI
+      RZiUMKRAxDFQRWuByDlMqhUUithQDLXJtYZB6tYZx2vEiaIvNF7tFfzEZyRAVSvkC0UMrWE0
+      JDECOhKMG6+R93KM2m1G/9l/iiFTbvbucaALhJtb1MUhbu4NJmFCev06xWKJXKdDGEWMhcAy
+      JWmcMjRNLMtic3OTnDFhUrMxrr6JPvyYPBW2tq/T6/UYDAbElQpqMqG8vk5RKcKj+0TDFnH5
+      GkFqoNMUd2Nj6hlUCew4DEtvMGl5eKUG9VKTXq8HQK1UWrhCYXq+UI5jwjBkOBxS2b4GD98n
+      52riG7+GtfkGUhq4wyHFU8Jl5q7YCylA9+Axj3bbXLt9G6k1Wki0lQM1S07QClR07Pv568cC
+      3GbBbu6kRy0ZLGbV3Bqffv/kyT630KffP0mCOPtn1LGfeTahQ8w2A0+uevoSclzZlDCmi40Q
+      s9enf6fIhcJN/2/28zOzSWGQCJtIeiTCItYuiXBIpIlAktMTRqJAIeeQDtsYgzauiJESdKzJ
+      CU0kwQru4Yg8W+ubDEY+0j/EMk3qzWtMjh4x6HbAsHC1JlYCDBN7dIRpVbHNlNz4kDRO6I9s
+      jO0KhmXQ1hvkck02jUcMhz0K+RzVcolup01ZjJikHh4RwiqTpglpEnM4SajJEXc/eX/6uTk+
+      URQShSFCwHg0Ip55/o72H2GGPWJvi+BwF1lostao0frk72l4iqT2BmblNv7ePZrNJkexgyun
+      9WHnAZB7e3tYlrWoGPL48eNF/nin20OUriGqJVR/xMHBIcViEdu22NvdwbTspzbInU5n5uo9
+      pwmk05if//wXBBOft37zt6h49oUypR4/esT+7PTw6+X47nj20Wg9PUtgrip6oTKGTmerD5g6
+      xiAh1QYShRRTxUiOKeZctQ2h0Vrh2Sa2GtPVZTA9xonEIEWaFpabZzwaInWKqSNsHWLqAFPH
+      02sZBoaYebnSGEcqXJngCw9LBSRxDAgskRBLl2KxROiPQSvSOCAvQoTloDBQ0QSlNUpYePni
+      zEGh0UlIGIbESiB0CsLAtCwc2170dVNpgu3m8f0AOWtWrrUGIYmTBCklliEwVMgwNpA6QUub
+      vA1xqkmFjU4CDKeIkALbcYmi2f2ZFgiJ7/t4hRJhGGIYJtKy6XSmMVdaGFiWRaFQZOyH2LY9
+      va5hEvf3KBkBk/wNDDuH7bggBEH7EW6pfoEVQJr8+Dd+g8cPHlLKuxiziX/uDsr6KFYAABYV
+      SURBVDEr0dh6tooI/UQP9HTS2zqcukcRT1YDAanQ2MQUdZ+JWSFSU1NLqRQ9q3Rqiph83GPk
+      rKPjlGpeM5QVfH9CJA2StIhnTQ/jRDq9rGkY5BwLoVxqxpjDoUEicghtERgeWk+9aPnqGo7j
+      EEUhh/0BAEkcYkhFLBSGZWOoBGHabG29QpokTLq7yKBLJTchdtfoBhIdjRB2kbEsUa03MAyD
+      KIqolXKo+3/PIPGoetC3t4hnJ7y+71MsFtjf26NWq9Hrdrhx4zoCwaNHD7FMc+rtE5AkMWLS
+      YhJEFHMuBz0f05BYRszmlS3ywR5H5lXySYveaESh7OFsfgdUMvUGHR3hFvOEs5ggQyhUfECq
+      Y1QwQCcKoSJ8ZVAoVDHSlOjgDiLXJC2WSA/v4zW3MZUPnbtoo8bo8MEKh0N/ZRwz5J/ZC8y+
+      aIXBdEIrJFoITB2jkRhCs84hoZEHy2PoJ2zYQ3pJjsRwSdJp5WtbJOQck2FoggFRKqamjdZY
+      OsKQEl+ZOARYdo5hBGU5JHHqGE4OM2hTKzp0e0MaG1s444dMrMYipqnb7RD4PqPxhFHvCGk5
+      qHDMtYqB6beIcxt0YxvDchGjPeL8VfzRAFSMdAqkcUAuV0ALyWg0wrZtCoUCQgg21hp0Dnao
+      rl+jPxjQmG1i52c9w+GQMAypVquLgL00TdnZ2cF13YXLO+k8oO+nxNJBakWp2qBshbSOOhQb
+      VxEqoaZbiM1fJ93/FRNnA69UwzRN4jh+6nBvft3x3seI4gZCWqzH9zjyXsP3fSzLommNUJFP
+      30/xHAt34w1arRa6/5jy1duI3v1vSCzQ0jg22Z/6/gSL/54uAwYJtikJZ1sOKQ1UqhDSQFoG
+      naRJzjaYTCY4UnOQVIi1gZQetm0QTyZMUknkp9jpgMQoTc0jaUAaYxsap1AiHEWEKk8Ya8p2
+      QrnYYNzvUi5KrPU38XI5UvkZ+uA9+laN8rXb05UzjYgPP4FUkQQAkqoZME4UJDGV698Dv01z
+      7TtTR8RH76Nf+Ql7j+4RTmICFdJ0Q/YDk3opRyQSLMNBSkmv15t6TBJN++5dDMNgOBwuwlrm
+      AWpzpYBpHJBhGGxtbZGmKaZpsr+/z8Yrv4a38xGdUYBZWiOMIkZmniu3tpBSYooUsbeDin1a
+      o4R8zqTValGpVJhMJovwiTRNFwdsJTbR40OOhooDXISj2Nramn4uWmMM92h4EZS2aXe7VKtV
+      7HqJ0eOPKJZKL5kCLMx7feLFGc/sgafKkQqbVCVoJI7UlGnREhVM00TqBFOkBOSpmy1sQzAK
+      R5RcyX29TZQChoUlU8q2gS8r5F2X0B9jh21sNWIk6vSGPjnXwZCC4TggbyqUW6WQBhQ2X6fX
+      HxAlKWblKvb6TVLfZzT2MUwbc7QDpkdP2YSqj5IWQ2yEnVC89SY4Dlg59P679FSRwL4Fn76N
+      V7uK8OoYkz71K2/Qv/+AaDLg6tY2jx8/xrQdtra2nsprmB+kJUnC0d5DqunBdEO8H+PmpsFz
+      826hUspFTFgYhtNQGF0mcRImo2nvh0qlsvDvC2FB/Tbp4UfIXB1pOti25ujoCMdxSJKEjY0N
+      Dg8PF65NXbxKpG1ypo9X20Icj2wVAkpXFr9NxzYZj0aknoeu34aXTgEEMzNHnHhZT80aoWae
+      HDBEisJAGsbUxakEt6qKnaiEH2maeZujYUSKBreMZVpYRolJ4CNLa+RrJcSej1JT92yiwbdy
+      xHFCznJIUg2OhxYpOZVwbW2Tew928BhjOgXIV1HBiLWbP6TbHy2iHvcefY7lxxh2iVypxtHR
+      EXknz2i0g2daaMsk1ZCzJVuVPFb/M1h7CwrrJEaOwf4hbml6EpskBrmcw1E7IT04olEwKRou
+      Y8vljYZANDewvOIzoceGMd10VlWLYO1N7HSCE/nUrr3y1Oc6V5T5nyiKCMPpptq2bVqtFu12
+      e9EJdB4XZlnrdNodzP70qb++vo7neQwGA3q93lNm9ng8xo8EkCMaDKhWq5zKpE2h+zGjSBOF
+      G5Q2prJ+uxRgnjcwe4pLoRcO0fnfFiF5I6KXTu1IIUBIA61B6hSpI5S0kVojSEiVwPM8PNtC
+      qTavV2KO/Bx7Q01zfZP+oE+lWqNarfL484iK7hNP2nQMydVmnb32kGqtTrvdRgjJrVu30FrT
+      6/WwbXsaCGdZuIUqXq5HobBOzbYXp7VSSgqFaaKNaUjc6IiksI7VvYNV+SkAfqypX3uDZHiA
+      IQoY4102b3wHYXnw6D88+XgMhzhOWPcMRqOERqOB1po33nhjFtwmEfvv4ow+hFwDvOKpsflz
+      8o6JaUSkkyNy5Wd97VJKbNt+6gR3Hl5dqVTo9/uUSiVM01zUW5qHncfx9CR6NBrR7/cXodbz
+      0Op+v49pmosguHnijud52Lb9lFNFCAHdu3DlRxSEgL13QL4KfCsU4IQJM/+qpwdiEk3VToi0
+      AYaFiAVhapK3FLnqBkqziFx1DYXt5Rn1u0SRRguLUs5BxiPqa29QK90kDSdseGUm9z6nUq3i
+      uC5HR0fTTSEh6z/4J4y7h3DwKwp2Dl0y6A17rK2tUa/XZ+EFAYVCgWq1SrvdxrIsRqMR+Xye
+      zc1NhsMhxsydCNPjfMuyUJMOVtFDN7Zoj9oM9nep1NefxPbrPJ7rUi3fRBy8M7X3S1cXH4+M
+      x7hJl0FPYAcdHOf6s1lmmz889VOex/0fT0ARV34dt/0plBtQvvZcvy3LsrBtm8PDQ/L5/EI5
+      jo/ruu7iesVicRGivfiNa72INA6CgFartQhTn0e9zn07hmFM/wQaK93FNgRmbOJMJtOV55vt
+      BXpadEekRNoENIYAhEDqFAybnC2plfNUdZdWWqTY3MafTcQgCNjf38c0TcrlMoPBgOvWEQ+D
+      AqZOsKVClK6wubm5aJQ9f49Sinw+z/r6OocPPibUJo4a0ww+I7z5B/Q7LdRgj+LWm4s0PqXU
+      IovK930ajQaWZREEAYPBYBFH7zjO0+5hrWH/HUgCsPKw/t3FE3o+YQzDmCaICzU9bDSPJYe0
+      PmIsCoxSm9zgY4q3//GXf8JaLwLklFI0m82lFLT6siT2+SQ3Z67ULyJN06e8UsfHSNN08ScO
+      RsRxSpTqxUPvG7gCPPHRC63xhI+0C/hRgkYsDqrmYQ9518TXFrWNTRxDExoNhB9TKBYxZ5NO
+      KcWtW7cYj8e0Wi2klDyOqxhxD+FVcGtrz/wSTNPEndUw7ff7BEEAboUN3cayXETlewwfvkfT
+      TRDbb3A4HC8UQErJ+vo6QRBQKpUWNvZ8vHk6Ya/XY319/elN3cYPphP7eCExTjl/MU6Jri1v
+      k99/h7yVmz61nwOlFFEUsbGxwWQyYTweUyqVnuu9F0EI8dz94QzDOLVEznxPsVC0Y6EUc75Z
+      CnA8qwmBbShMaSF1RLNgkQiL3kQhdEKqNablYJspYTg9EU0wsWyPnIgXKXWNRoNer8ejR4/I
+      5XJIKdmeJan0+7nFpspxnMXEbDQaTCYTyuUyuVyOMAwJgoBKtYrtbCxk9Ywu3ShEhuKZND0p
+      5SK25XjNzSiKcByHWq1Gu91e2MxPblw8ia96Uew8XP3NaTUL6/SCxyeZJy4Nh0N836dWq53v
+      2ivKN0YBhFZoBA6aQt6k76fkhc+19Qai8zn7nwZUwjaTW7+Btj3seEKsEoZ+QrG+CUwTqz3P
+      w/M8isXiIsYkTVO2tramobnFIr7vL8yQ+VN7f39/UWWi1+tRKpU4OjpaZHPNk9SfCCwolKtY
+      YbhIaH8eHMeh2+3S6XSI43j5XTINa/rnORFCLKpczD1R3ya+IQowNWuqyYiRU2IQS3J5F8KI
+      o3aH+qN9Nr73FoP017m2f4D5wzeJgzFF1SP21vCKz9bn0VpzeHiI67oMh0Pq9TqmaVKpVAiC
+      gDiOn0omn1dzmMc7WZbF2to0dv6k1+H4e160z4EQgvX1deI4/krqCj2vTPPV8dvGiiuAXsTi
+      GDqhtFbDHyYoIVnfvMqwLQmigG6ygR1KEn+IWSxOn9rFIrCBmOWvnmRuWlSrVeI45uDggHK5
+      vPBSnKRer9PtdgEWZsDcw7Bs5mmlGZfPaivAsX2NkjZ7wxQvX8ZxHB4+fEilUsaIQ9zXa4zG
+      Ghwba3OTIAi+9Mlr29MKD0ezpIorV6584dPWNE2azebCC5Tx7eACCqDZfXifwSTi+qu38axL
+      mhSzglhOFGMUahSLxUUlslwuR1Ka1oGJh0O01osj8y8dVoiFCfM8rraMbycXWgEa65vovQf0
+      BgFu7UllsPPwrBNLL5JcbKERs9PReXW2tbWpazJNU9rtNr7vL0p1NBqNhRxfJtPchfa8xyHz
+      n11mZeqLfG5f1XjAyst4nvEuoACCNAkZjiPKhfTiE0OfEH5m+xdzefwwwi2VyOfzNJvNRWGn
+      Vqs1lUQIrl279lTA1mKYJU/W+Ye87G4py1aoZY+3bFblns+vADplb2+avGzb1iIL6PwJMcdN
+      KI2pIlJpEWqN6brUGg1qtdrC/g6CYFFwaV41+LTNa9YiaTksuzz6qtzz+RVAGNy8df7eXV+G
+      qSKkYbJ9bZtcPs9wOHzqFzAvHDsajabJzVlj7YxzsLLuDK0FtilJlaLfOSJvPb28Hbf1m81m
+      5pnJOBer+djUQKHK9bqk191jw4swJxL0CKpPqilblvWtO5nM+GpZ2cemDEekhavYaoy1+V3E
+      xvemNeQzMpbIaq4AQK6+SaIljc1t2HsbouE0hkWlTwpvnZM0TReHZZdxkpvxzWFlVgBxIrFl
+      Y3ODRqOBUb4KaNj4PtRuQfuTC11HKcXh4SFJknB4eLhUX3TGN4+VUQB9LE9XIHCtE09mtwp2
+      8UlDu3MyDzeetz56nlPjjG8vK2YCzZJdpESJY6KtvQW7P5/GwW/84EJXcByHfr8/rQ+jdbaJ
+      fslZMQVgVp9KP53i5pSmnT2WMXwWA5RxjNVTAECeI47+RXiRdLuMbzcrswc41s1oWkk9ezJn
+      fAWsjAKIeU0fMe32Me60v26RMl4CVkYBtBBIrTDV1CsTBr2vWaKMl4ELKUAw6nHvwWPUEsJa
+      banRQCIMLEIif3QpYbgZGce5kAKM/JiaF3N/t39xSYSBa2gcEWNKSWhOW2sm3Yfw6Gdw+AGE
+      y+4jnPGycyEvkCUVDw9C3ni9vKi+dd6ndhjFuK6HH/j4ysBLFFYcsNNts+WFiKAHowPU5o+e
+      u6YNPKmYtiyOV4ZYFsuW8TLueV4VY1msyj1fQAEUH7z/EdX1TYIopuhNk1HOG1tTKpf59GCf
+      aceflHKpSL3o8nl3D6PsgZ0DK4eMR+CVX2jsZeYKzJPil31+sOx8hmXf87ITYmA17vkCEkh+
+      +tu/c/63n2Dc6+NqH1NIxsqke7hLf1CkUi7D8O7UN5pfh8brS7tmRsbKHIRJoYixiLTAMjQ3
+      rm+Tmrlpo2PeBBVPqx2f1eo0I+McrIwCgJ42pEABEqd0onjracVeMzIuyMo8TlPDpkRAjQna
+      WCG9zPhWszIzrVgo0LEKRFpRLL3YJjcj47ysjALkbBNLhSgNxZWRKuPbzsqYQO2jQ1K7gM5V
+      OGwdzNIgx1+3WBnfclZGAZThINIYKxqRmh7Ub0/bAWVkXCIrY2wYlkWiNEoKDMsGK8dpFUMz
+      MpbJyiiApXzypTKJ0jjh0TT+p355lecyMmCFFCBfqtHt3UdqQb66AdvZiW/G5bMyChAksHH1
+      OiqJmMRZqZKMr4aV2QQbhoESBtp0T1SKzsi4PC4202aNiJdBsVhkMuhwsPOQ2qw1aUbGZXMh
+      Bdh7/Dn/8O77SxFk2D5g3OvgGLB798OljJmR8WVcaA+wee0m7cFUAS6aENMdDGk01zALVR5+
+      9PbSKrZlCTEXJ0uIORXNaNBnOBwSRDGuPa2zc96EmLVGg4d3P0arR1TqzaUmS2QJMRcjS4g5
+      gzRNufnKTZaRu+6Vqrz65g8YjUeUq/Uvf0NGxhK4UJO8crXOMuM2TcfFStKsXGHGV0bmb8x4
+      qckUIOOlZuUUIGt2l/FVks22jJealVOArGVRxlfJ0oPhlnHAscxDEqXU0sfTWi/VU3UZMi57
+      PCHEUmu1rso9L1UBltFx8TI6Ny57vMs4CMvu+esZb+VMoGVvgld9vMsYc9XHu4wxzzue0FkN
+      8oyXGONP/uRP/uTrFkIlIR988CHdUYBUIYZps7N3QLlUPPeY+4/v8/DRIzA9xpMxg/YhTqGM
+      Ic+/jH/y/i9I3TqjXptoMiCWDs7Jdq7PiVYJn975kJ6fIOIJ0nTY3T2gXD7nPeuUj95/n/2j
+      LnkzwRc5DnYfT2urnoODx3d53JpQKRi8//6HDMOUNPSxHcnufpdy6fkrdANE/pBfvP0B61c3
+      2b3/GY8e7eIUbAa9mG57n3yp/EJtsdI44O1fvEN1fR1LCH7185+RW9ugd9RnMjhCOAUs48tX
+      hZUwgYa9I+qbN5FxQLdzyC/feY9qY+1CY65d2aaaN5n4AZ9++B6DxMA2zj/5B+1d4lTgRykP
+      7t1h52hM0T1/ucZxd5+jYYIpJcPeIb98+12qzYvcc8pkEhEEPuG4yy9/+TZeqXbu0Sq1BkkU
+      MTjYYfPWd0mDId3DfX757kesrTe+fIATCMOh4Nlo4Mr2TXI2hHHAh++8TSRzGC+4vxDSoFzI
+      kSho7z8k1YJIpXx+5wNaI03Ofr4H00oogBCQpCmpUhiWTaXg4YcXa4j96POP0fkNrjWLVGs1
+      Qj+4UI2Jvf0jVOzT7w8olauoOLhQZxwhDNY3r5L0OkSmTaWYYxKE5xcwGmNW1mgWXPxUU69V
+      mPjBuYdznKlyCylIkhSVKkzbo+iZBNGLh6pbtr14wn/+yYfk127QKLlUa3UCf/zCHiZpWJiG
+      BBQHRz2SYEx/MKRcaxAFo+f+3axETnCxus7RvbvkyjUqeYvcdoWjVgtdznHeZ3aSKPz2AZ69
+      xebWDWQ8wY8VOet8Ov/6W98jHHUJZIE0tPFMwcgPKefP1841V1nD6N4jKRRZq+bxrlVptw7Q
+      5M93z3aJgjggFA7r9TIVp8aos4+Gc4338P4DoiBEXnuV8c49SvV18pakVC1xeNCmnHux1WrY
+      beFHETs7ByQqpXPwGM/dYvvVV0ijAYkG6wUEDcd9+r5P+HifN7/7fUbtQ4xKFd9wsEXEOEwo
+      ul/eCjfbBGe81KyECZSR8XWRKUDGS02mABkvNZkCZHwjmfT2+T/+1b/iZ+/ceer13d09dBLw
+      /p1Pz3xvMOrwf//Zn9EZR6vhBcrIeFHG7YcUrrzF57/8GVcaJr96+1dsvvImf/m//y/80z/6
+      Y4b9AX/7V3/BwVGPH/327/LOf/hbtFvin/7B7/H//uVf8pPf/y+x/MNsBcj45vL2v/1z+m6T
+      pN/H9hwePDrk1utv8ubNDR493qM3Sfjha00+/MXfUbr1m0SjDhpItEHBc/jkvfcyN2jGN5PB
+      /mc8HBfoPfgVpmPTm4RUGteI2/eoX3+DfqeHY2i2ajY92eDDX/xH7u52+Bf/9T+ns/sZf/Oz
+      X/HrP/xupgAZ337SSZd//e/+jsrGK/zG919/6mAwU4CMl5r/H0pNT2CgCOtYAAAAAElFTkSu
+      QmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
